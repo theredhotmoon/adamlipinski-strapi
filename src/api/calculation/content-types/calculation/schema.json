@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "calculations",
+  "info": {
+    "singularName": "calculation",
+    "pluralName": "calculations",
+    "displayName": "Calculations",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "totalIncome": {
+      "type": "string"
+    },
+    "totalPeople": {
+      "type": "integer"
+    },
+    "totalOutcome": {
+      "type": "decimal"
+    }
+  }
+}
